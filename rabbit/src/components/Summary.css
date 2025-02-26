@@ -1,0 +1,45 @@
+.summary-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #121212;
+    color: #ffffff;
+    min-height: 100vh;
+  }
+  
+  .summary-card {
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 600px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .summary-card h1 {
+    color: #4CAF50;
+    margin-top: 0;
+    font-size: 1.8rem;
+  }
+  
+  .summary-card p {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+  }
+  
+  .summary-card strong {
+    color: #b0b0b0;
+  }
+  
+  .note-section {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background-color: rgba(85, 165, 88, 0.975);
+    border-radius: 8px;
+  }
+  
+  .loading {
+    text-align: center;
+    font-style: italic;
+    color: #b0b0b0;
+  }
