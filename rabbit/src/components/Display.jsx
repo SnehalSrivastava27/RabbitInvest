@@ -13,7 +13,6 @@ export const SelectedPage = () => {
     axios.get(`https://jsonplaceholder.typicode.com/users/${id}`)
       .then(response => {
         setUser(response.data);
-        console.log(response.data);
       })
       .catch(error => {console.log(error)});
   }, [id]);

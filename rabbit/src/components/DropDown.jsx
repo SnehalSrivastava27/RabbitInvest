@@ -9,7 +9,6 @@ export const Dropdown=()=>{
     const navigate=useNavigate();
     useEffect(()=>{axios.get("https://jsonplaceholder.typicode.com/users")
     .then(response => {setUser(response.data)
-        console.log(response.data);
     })
     .catch(error => {console.log(error)})},[]);
     useEffect(() => {
